@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e490f86c2a984f0419edda57e716a6b4, type: 3}
+  m_Name: Wave 2- Vertical 3
+  m_EditorClassIdentifier: 
+  WaitUntilEnd: 0
+  pause: 1.5
+  geometry:
+    Scale: {x: 5, y: 1, z: 1}
+    _Color: {r: 0.91974485, g: 1, b: 0, a: 1}
+    _Transform: {fileID: 2040214139112624683, guid: 7a817dd3434834a4d990f2c6fc33116d, type: 3}
+    buildUpTime: 1
+    stayAliveTime: 0.25
+    fadeOutTime: 0.5
+  startPoint: {x: 1.75, y: 4.5}
+  direction: {x: 1.75, y: -4}
+  elementSpace: 0
+  numElements: 12
+  delayBetweenElements: 0.25
+  isDynamic: 0
+  shouldRecalculate: 0
+  shouldRotate: 0
+  useYAxisForCalculations: 1

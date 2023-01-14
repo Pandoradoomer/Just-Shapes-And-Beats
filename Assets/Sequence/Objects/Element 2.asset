@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f9060fda3d81ea4ba02cbfe68cff944, type: 3}
+  m_Name: Element 2
+  m_EditorClassIdentifier: 
+  WaitUntilEnd: 0
+  pause: 0.5
+  geometry:
+    Name: 
+    _Sprite: {fileID: 7482667652216324306, guid: 3c4f2fbd043510343978fb97b652726c, type: 3}
+    Scale: {x: 1, y: 4.5, z: 1}
+    _Color: {r: 1, g: 0, b: 0, a: 1}
+    _Position: {x: 0, y: 0}
+    _Rotation: {x: 0, y: 0, z: 0, w: 1}
+    buildUpTime: 1.5
+    stayAliveTime: 0.25
+  xDeviation: 0
+  yDeviation: 4
+  elementSpace: 1
+  reverseDirection: 0
+  delay: 0.5

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08dee239bbee1ad4a88ab3a2285810c8, type: 3}
+  m_Name: Flash Sine Curve
+  m_EditorClassIdentifier: 
+  WaitUntilEnd: 1
+  pause: 0
+  geometry:
+    _Transform: {fileID: 2040214139112624683, guid: 7a817dd3434834a4d990f2c6fc33116d, type: 3}
+    Scale: {x: 0.5, y: 2.5, z: 1}
+    _Color: {r: 1, g: 1, b: 1, a: 1}
+    buildUpTime: 1
+    stayAliveTime: 0.25
+  sineMultiplier: -2.39
+  functionMultiplier: 1
+  xDeviation: 0
+  yDeviation: 0
+  distance: 0
+  delay: 0.5
+  startPoint: {x: -2.36, y: 0}
+  endPoint: {x: 9.6, y: 3.75}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f9060fda3d81ea4ba02cbfe68cff944, type: 3}
+  m_Name: Element 1
+  m_EditorClassIdentifier: 
+  WaitUntilEnd: 0
+  pause: 1.5
+  geometry:
+    _Transform: {fileID: 2040214139112624683, guid: 7a817dd3434834a4d990f2c6fc33116d, type: 3}
+    Scale: {x: 0.25, y: 20, z: 1}
+    _Color: {r: 0.9716981, g: 0.90653753, b: 0, a: 1}
+    buildUpTime: 0.25
+    stayAliveTime: 2
+  xDeviation: 0
+  yDeviation: 0
+  elementSpace: 0.25
+  reverseDirection: 1
+  delay: 0.05

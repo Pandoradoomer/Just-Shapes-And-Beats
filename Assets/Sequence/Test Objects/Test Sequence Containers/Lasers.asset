@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f134b869334bee045af7520d1b6a18a8, type: 3}
+  m_Name: Lasers
+  m_EditorClassIdentifier: 
+  sequence:
+  - {fileID: 11400000, guid: a5041f813ec196f418a439fc582815bc, type: 2}
+  - {fileID: 11400000, guid: 7c4eca518d2fded4a8af0a75ee26b205, type: 2}
+  - {fileID: 11400000, guid: 0f7c7be6cd589e14194592f23c25cb47, type: 2}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f8324292f8660343a7c169cd9ac883d, type: 3}
+  m_Name: Spawner 3 - Jiggler
+  m_EditorClassIdentifier: 
+  WaitUntilEnd: 1
+  pause: 0
+  spawnGeometry:
+    _Transform: {fileID: 0}
+    Scale: {x: 1, y: 1, z: 1}
+    _Color: {r: 0, g: 0.7890246, b: 1, a: 1}
+    Position: {x: 4, y: -2}
+    Spawner: {fileID: 4211928378308035138, guid: ce947bc55d99b0d4293efe416974ace7, type: 3}
+  lifeTime: 30

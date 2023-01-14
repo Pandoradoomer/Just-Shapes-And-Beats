@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddb1c1cb12095fd4ca34e849a2d823d6, type: 3}
+  m_Name: Waypoints 3 - Square Cycle
+  m_EditorClassIdentifier: 
+  WaitUntilEnd: 1
+  pause: 0
+  Traveller: {fileID: 8106456808718698459, guid: 203c467810317084d8d1a72d0d1847d3, type: 3}
+  spawnPoint: {x: -10, y: -0}
+  waypoints:
+  - {x: -7, y: 0}
+  - {x: -7, y: 4}
+  - {x: 8, y: 4}
+  - {x: 8, y: -4}
+  - {x: -7, y: -4}
+  - {x: 8, y: 0}
+  endPoint: {x: 10.25, y: -0}
+  velocity: 10
+  numberOfTravellers: 4
+  delayBetweenTravellers: 0.5
+  shouldRotate: 1
+  numCycles: 5
+  cycleStart: 1
+  cycleEnd: 4
+  showOnlyCycle: 0
